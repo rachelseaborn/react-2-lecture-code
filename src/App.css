@@ -7,3 +7,8 @@
   height: 75px;
   background: skyblue;
 }
+
+.main-header h1 {
+  margin: 0;
+  line-height: 75px;
+}
