@@ -1,6 +1,4 @@
-import React, {Component} from 'react';
-import Header from './Components/Header';
-import ListDisplay from './Components/ListDisplay';
+import {Component} from 'react';
 import './App.css';
 
 class App extends Component {
@@ -10,8 +8,6 @@ class App extends Component {
       username: 'Matt',
       todoList: ['Code the things', 'Eat', 'Sleep']
     }
-    //binding methods ensures proper context
-    // variable to save new instance context
   }
 
   render(){
